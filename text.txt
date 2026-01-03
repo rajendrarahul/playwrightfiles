@@ -1,1 +1,20 @@
-Just a text file.
+************************Git commands************************************
+
+1. To Initialize the repo => git init 
+
+2. To configure the user information => git config --global user.name "username" / git config --global user.email "emailid"
+
+3. To add files => git add -A / git add . (For adding all files)
+                    git add filename (adding specific file)
+                    git add *.java (adding files with specific extensions)
+                    git add foldername (adding files in a folder)
+
+4. To commit the changes => git commit -m "commit message"
+
+5. To get the status => git status
+
+6. Connect local repo to Remote repo => git remote add origin "url to the remote repo"
+
+7. Push the changes to Remote repo => git push origin master
+
+8. To pull the latest changes from the remote repo => git pull origin master
