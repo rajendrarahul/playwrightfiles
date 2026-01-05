@@ -22,3 +22,6 @@
 8. To pull the latest changes from the remote repo => git pull origin master
 
 *********************************************************************************************************
+
+****************************Git commands to create branches, merge the changes, delete branches*****************
+
