@@ -1,5 +1,7 @@
 ************************Git commands************************************
 
+
+
 1. To Initialize the repo => git init 
 
 2. To configure the user information => git config --global user.name "username" / git config --global user.email "emailid"
@@ -18,3 +20,5 @@
 7. Push the changes to Remote repo => git push origin master
 
 8. To pull the latest changes from the remote repo => git pull origin master
+
+*********************************************************************************************************
