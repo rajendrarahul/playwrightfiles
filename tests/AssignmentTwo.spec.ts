@@ -10,11 +10,12 @@ test ('Make My Trip', async({page})=> {
     if(await acceptBtn.isVisible()){
         await acceptBtn.click();
     }
-    await page.locator('//span[normalize-space()="From"]').click();
     await page.waitForTimeout(2000);
-    await page.locator('//input[@placeholder="From"]').click();
-    await page.locator('//input[@placeholder="From"]').fill('Dubai');
+    await page.locator('//*[@id="fromCity"]').click();
     await page.waitForTimeout(2000);
-    await page.locator('//p[normalize-space()="Dubai International"]').click();
+    //await page.locator('//input[@placeholder="From"]').click();
+    await page.locator('//*[@id="top-banner"]/div[2]/div/div/div/div/div/div[2]/div[1]/div[1]/div[1]/div/div/div/input').click();
     await page.waitForTimeout(2000);
+    /*await page.locator('//p[normalize-space()="Dubai International"]').click();
+    await page.waitForTimeout(2000);*/
 })
