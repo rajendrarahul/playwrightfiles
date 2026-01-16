@@ -26,7 +26,8 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      run: npx playwright test WebTableCSVXlSx.spec.ts --project=chrome
+      #run: npx playwright test WebTableCSVXlSx.spec.ts --project=chrome
+      run: npx playwright test WebTable2.spec.ts --project 'chrome'
       #run: npx playwright test --grep "@sanity"
       #run: npm run test:sanity
     
